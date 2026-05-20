@@ -1,4 +1,4 @@
----
+
 
 ## 🏗️ Arquitetura do Pipeline
 
@@ -7,7 +7,7 @@
 * **Formato de Entrada:** Arquivos compactados do Excel (`.xlsx`) armazenados no sistema de arquivos distribuído.
 * **Formato de Saída:** Tabelas gerenciadas em formato Delta Lake no catálogo de dados.
 
----
+
 
 ## 🛠️ Detalhamento Técnico da Lógica
 
