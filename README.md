@@ -2,7 +2,7 @@
 
 ## 🏗️ Arquitetura do Pipeline
 
-* **Ambiente Compatível:** Notebooks Spark (Microsoft Fabric, Databricks, Synapse)
+* **Ambiente Compatível:** Notebooks Spark (Microsoft Fabric)
 * **Linguagens:** Python, PySpark e Pandas
 * **Formato de Entrada:** Arquivos compactados do Excel (`.xlsx`) armazenados no sistema de arquivos distribuído.
 * **Formato de Saída:** Tabelas gerenciadas em formato Delta Lake no catálogo de dados.
