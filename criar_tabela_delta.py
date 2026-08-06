@@ -1,15 +1,15 @@
 import pandas as pd
 import os
 
-# ==============================================================================
+
 # CONFIGURAÇÕES DO PIPELINE (PREENCHA COM OS SEUS DADOS)
-# ==============================================================================
+
 DIRETORIO_ORIGEM = "/seu/caminho/no/lakehouse/Files/sua_pasta_de_origem/"
 CATALOGO_DESTINO = "seu_catalogo"   # Ex: nome_do_lakehouse
 SCHEMA_DESTINO   = "dbo"            # Padrão no Fabric, ou seu schema personalizado
 PREFIXO_TABELA   = "brz_"           # Prefixo para identificar a camada Bronze
 MODO_ESCRITA     = "overwrite"      # 'overwrite' para sobrescrever ou 'append' para anexar
-# ==============================================================================
+
 
 # Lista todos os arquivos presentes no diretório configurado
 arquivos_na_pasta = os.listdir(DIRETORIO_ORIGEM)
