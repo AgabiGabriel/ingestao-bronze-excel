@@ -1,6 +1,6 @@
 
 
-## 🏗️ Arquitetura do Pipeline
+## Arquitetura do Pipeline
 
 * **Ambiente Compatível:** Notebooks Spark (Microsoft Fabric)
 * **Linguagens:** Python
@@ -9,7 +9,7 @@
 
 
 
-## 🛠️ Detalhamento Técnico da Lógica
+##  Detalhamento Técnico da Lógica
 
 ### 1. Descoberta Dinâmica de Arquivos
 O script utiliza funções do ecossistema do sistema operacional para varrer a pasta de origem e mapear o conteúdo em tempo de execução. O filtro por extensão garante que outros formatos temporários ou corrompidos não causem falhas no loop de processamento.
